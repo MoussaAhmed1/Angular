@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+}
+
+div.footer{
+    position: relative;
+    bottom:0px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    width: 100%;
+    padding-top: 5px;
+}
+*{
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/*features*/
+.features{
+    background-color:rgb(0, 0, 0);
+    
+    color:#aaa;
+    padding-top: 40px;
+ 
+
+}
+
+
+.features .h1{
+    color:#fff;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.features p{
+     margin-bottom: 40px;
+}
+.features span {
+	font-size: 25px;
+	padding: 23px;
+	background-color: #de2c2c;
+	color: #fff;
+	border-radius: 50%;
+    cursor: pointer;
+    transition: all .7s ease-out;
+}
+
+
+.features .col-md-4:hover span ,.features .col-md-4:focus span {
+    background-color: #fff;
+	color:#f53939 ;
+}
+.features h3{
+    font-weight: bold;
+    color:#fff;
+}
+
+
+.features .feat .lead{
+        color:#aaa;
+   
+}
+
+
+/*features*/
+/*skills*/
+
+.skills {
+    color:#fff;
+    background: #000;
+    padding: 50px;
+    
+}
+.skills .h1{
+    color:#fff;
+    font-weight: 600;
+    text-align: center
+    
+}
+
+
+.skills .about{
+
+    padding: 15px;
+    
+}
+.skills .about button {
+    
+    color: #fff;
+    font-weight: 500;
+}
+/*skills*/
+.contents{
+    background-color: #000;
+    color: #fff;
+    border: #aaa solid 1px;
+    border-left:none;
+}
+.br{
+    border-right: #aaa solid 1px;
+}
